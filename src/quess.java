@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class quess {
     public static void main(String[] args) {
         Random random = new Random();
-        int quessNumber = random.nextInt(1, 101);
+        int quessNumber = random.nextInt(1, 10001);
         Scanner input = new Scanner(System.in);
 
         do {
